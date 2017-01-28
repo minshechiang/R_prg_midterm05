@@ -7,3 +7,5 @@ straw_hat_df$birth_date <- Sys.Date() %>%
   `-` (straw_hat_df$age) %>%
   paste(., straw_hat_df$birthday, sep="-") %>%
   as.Date()
+
+View(straw_hat_df)
